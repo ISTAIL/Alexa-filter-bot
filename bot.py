@@ -43,7 +43,7 @@ from Jisshu.bot.clients import initialize_clients
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
 JisshuBot.start()
-loop = 
+loop = asyncio.get_event_loop()
 
 
 async def Jisshu_start():
