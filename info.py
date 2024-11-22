@@ -19,14 +19,14 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5495693025').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "https://t.me/Skisrailz__100") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002459211482'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/nismoviesmovies')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002184298515').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "ALEXA99")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://israilsk:israil@israilsk.hen7q.mongodb.net/?retryWrites=true&w=majority&appName=Israilsk")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Israilsk")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -38,7 +38,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002459211482')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001624326498'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001948358628') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002184298515')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/nismoviesmovies') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
