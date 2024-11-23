@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/nismoviesmovies">Search_movie_iril</a>」</b>"""
+    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/Bangla_movies_new_all">𝗔𝗟𝗘𝗫𝗔 𝗠𝗢𝗩𝗜𝗘 𝗦𝗧𝗢𝗥𝗘</a>」</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
